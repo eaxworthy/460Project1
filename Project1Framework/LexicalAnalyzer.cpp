@@ -13,6 +13,8 @@ LexicalAnalyzer::LexicalAnalyzer (char * filename)
 	token = NONE;
 	line = lexeme = "a";
 	linenum = pos = errors = 0;
+	//TODO: initialize listing file, token file, and error filename
+	//to filenames based on input file (See way it's done in project writeup)
 
 	// This function will initialize the lexical analyzer class
 }
