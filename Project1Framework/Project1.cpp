@@ -8,11 +8,12 @@ int main (int argc, char * argv[])
 {
 	if (argc < 2)
 	{
-		printf ("format: proj1 <filename>\n");
+		printf ("format: P1.out <filename>\n");
 		exit (1);
 	}
 	SetLimits ();
-	SyntacticalAnalyzer parser (argv[1]);
+	cout << "a\n";
+	SyntacticalAnalyzer parser(argv[1]);
 
 	return 0;
 }
